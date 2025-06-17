@@ -31,6 +31,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 import { Input } from "@/components/ui/input"
+import { toast } from 'sonner';
 import { Check, ChevronDown } from 'lucide-react';
 import { cn } from "@/lib/utils";
 
@@ -79,6 +80,8 @@ const TaskForm = ({ onSubmit, onCancel }: TaskFormProps) => {
       priority: data.priority,
       assignee: data.assignee,
     });
+    form.reset();
+    toast.success('Task created successfully!');
   }
 
   return (
