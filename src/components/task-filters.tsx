@@ -1,4 +1,4 @@
-import type { TaskStatus } from "@/type";
+import type { Task, TaskStatus } from "@/type";
 import { Button } from "@/components/ui/button"
 
 interface TaskFiltersProps {
@@ -10,6 +10,9 @@ interface TaskFiltersProps {
         'in-progress': number;
         completed: number;
     };
+    tasks: Task[];
+    onUpdateTask: (id: string, updates: Partial<Task>) => void;
+    onDeleteTask: (id: string) => void;
 }
 
 
