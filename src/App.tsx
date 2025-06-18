@@ -2,6 +2,8 @@
 // import Messages from "./pages/messages"
 // import Index from "./pages"
 
+// import Notifications from "./pages/notifications"
+
 // import NotFound from "./pages/not-found"
 
 
@@ -16,6 +18,7 @@ function App() {
     {/* <Messages /> */}
     {/* <Index /> */}
     {/* <NotFound /> */}
+    {/* <Notifications /> */}
     </>
   )
 }
