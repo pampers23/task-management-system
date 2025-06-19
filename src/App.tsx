@@ -4,8 +4,8 @@
 // import Search from "./pages/search"
 // import Notifications from "./pages/notifications"
 // import NotFound from "./pages/not-found"
-
-import Settings from "./pages/settings"
+// import Settings from "./pages/settings"
+// import Timeline from "./pages/timeline"
 
 
 
@@ -15,13 +15,14 @@ function App() {
 
   return (
     <>
-    {/* <Dashboard></Dashboard> */}
+    {/* <Dashboard /> */}
     {/* <Messages /> */}
     {/* <Index /> */}
     {/* <NotFound /> */}
     {/* <Notifications /> */}
     {/* <Search /> */}
-    <Settings/>
+    {/* <Settings/> */}
+    {/* <Timeline /> */}
     </>
   )
 }
