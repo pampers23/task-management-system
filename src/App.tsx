@@ -5,6 +5,8 @@
 // import Notifications from "./pages/notifications"
 // import NotFound from "./pages/not-found"
 
+import Settings from "./pages/settings"
+
 
 
 
@@ -19,6 +21,7 @@ function App() {
     {/* <NotFound /> */}
     {/* <Notifications /> */}
     {/* <Search /> */}
+    <Settings/>
     </>
   )
 }
