@@ -56,7 +56,7 @@ const Index = () => {
         <Button
           onClick={() => setShowForm(true)}
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground
-          px-4 py-2 rounded-lg hover:bg-primary/50 transition-colors"
+          px-4 py-2 rounded-lg hover:bg-primary/50 transition-colors cursor-pointer"
         >
           <Plus size={20} />
           Add New Task
@@ -100,7 +100,8 @@ const Index = () => {
           {filter === 'all' && (
             <Button
               onClick={() => setShowForm(true)}
-              className="text-primary hover:text-primary/80 transition-colors"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground
+          px-4 py-2 rounded-lg hover:bg-primary/50 transition-colors cursor-pointer"
             >
               Create your first task
             </Button>
