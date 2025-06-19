@@ -18,7 +18,7 @@ const menuItems = [
     {
         title: "Dashboard",
         icon: LayoutDashboard,
-        url: "/dashboard",
+        url: "/",
     },
     {
         title: "Tasks",

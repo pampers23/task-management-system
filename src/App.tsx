@@ -33,7 +33,7 @@ const App = () => (
               </header>
               <div className="flex-1 overflow-auto">
                 <Routes>
-                  <Route path="/dashboard" element={<Dashboard />} />
+                  <Route path="/" element={<Dashboard />} />
                   <Route path="/tasks" element={<Index />} />
                   <Route path="/timeline" element={<Timeline />} />
                   <Route path="/messages" element={<Messages />} />
